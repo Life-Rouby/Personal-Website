@@ -68,7 +68,11 @@
 }
 
 /* Mobile */
-@media screen and (max-width: 940px){
+@media screen and (max-width: 768px){
+    .main{
+        background-color: rgb(53, 27, 53);   
+    }
+    
     .main_container{
         display: grid;
         grid-template-columns: auto;
