@@ -72,13 +72,13 @@
     .main{
         background-color: rgb(53, 27, 53);   
     }
-    
+
     .main_container{
         display: grid;
         grid-template-columns: auto;
         justify-self:  center;
         margin: 0 auto;
-        height: 140vh;
+        height: auto;
         background-color: rgb(53, 27, 53);
         z-index: 1;
         width: 100%;
