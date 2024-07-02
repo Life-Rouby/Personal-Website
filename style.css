@@ -66,3 +66,39 @@
     padding-left: 20px;
     text-decoration: underline 1px;
 }
+
+/* Mobile */
+@media screen and (max-width: 768px){
+    .main_container{
+        display: grid;
+        grid-template-columns: auto;
+        justify-self:  center;
+        margin: 0 auto;
+        height: 140vh;
+        background-color: rgb(53, 27, 53);
+        z-index: 1;
+        width: 100%;
+        max-width: 1300px;
+        padding: 50px 50px;
+        align-items: center;
+    }
+    .main_content h1{
+        font-size: 4rem;
+        color: white;
+    }
+    
+    .main_content h2{
+        font-size: 2.8rem;
+        color: white;
+        padding-top: 30px;
+        padding-bottom: 0px; 
+        text-decoration: underline 1px;
+    }
+    
+    .main_content p{
+        margin-top: 1rem;
+        font-size: 1.3rem;
+        font-weight: 530;
+        color: white;
+    }
+}
