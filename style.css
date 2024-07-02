@@ -68,7 +68,7 @@
 }
 
 /* Mobile */
-@media screen and (max-width: 768px){
+@media screen and (max-width: 932px){
     .main_container{
         display: grid;
         grid-template-columns: auto;
