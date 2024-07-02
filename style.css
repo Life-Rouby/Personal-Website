@@ -71,10 +71,10 @@
 @media screen and (max-width: 768px){
     .main_container{
         display: grid;
-        grid-template-columns: auto 0.5fr;
+        grid-template-columns: auto;
         justify-self:  center;
         margin: 0 auto;
-        height: 120vh;
+        height: 125vh;
         background-color: rgb(53, 27, 53);
         z-index: 1;
         width: 100%;
@@ -99,5 +99,31 @@
         font-size: 1.3rem;
         font-weight: 530;
         color: white;
+    }
+
+    .profile_img_container{
+        padding-left: 0px;
+        padding-top: 0px;
+    }
+    
+    #profile_pic{
+        max-width: 60%;
+        height: auto;
+        border-radius: 70px;
+    }
+    
+    .profile_img_container h2{
+        font-size: 2.8rem;
+        color: white;
+        padding-top: 30px;
+        padding-left: 20px;
+    }
+    
+    .profile_img_container a{
+        font-size: 1.7rem;
+        color: rgb(255, 190, 93);
+        padding-top: 30px;
+        padding-left: 20px;
+        text-decoration: underline 1px;
     }
 }
