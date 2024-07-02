@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     font-family: 'Kumbh Sans', sans-serif;
-    background-color: rgb(53, 27, 53);
 }
 
 .main{
@@ -75,7 +74,7 @@
         grid-template-columns: auto;
         justify-self:  center;
         margin: 0 auto;
-        height: 125vh;
+        height: 140vh;
         background-color: rgb(53, 27, 53);
         z-index: 1;
         width: 100%;
