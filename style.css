@@ -71,16 +71,15 @@
 @media screen and (max-width: 768px){
     .main_container{
         display: grid;
-        grid-template-columns: auto;
+        grid-template-columns: auto 0.5fr;
         justify-self:  center;
         margin: 0 auto;
-        height: 140vh;
+        height: 120vh;
         background-color: rgb(53, 27, 53);
         z-index: 1;
         width: 100%;
         max-width: 1300px;
         padding: 50px 50px;
-        align-items: center;
     }
     .main_content h1{
         font-size: 4rem;
